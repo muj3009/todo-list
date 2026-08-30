@@ -1,12 +1,15 @@
 {
   "build": {
     "preview": {
+      "pnpm": "10.26.1",
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
     },
     "production": {
+      "pnpm": "10.26.1",
+      "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
