@@ -1,16 +1,20 @@
 {
   "build": {
     "preview": {
+      "node": "20.19.4",
       "pnpm": "10.26.1",
       "distribution": "internal",
       "android": {
+        "image": "latest",
         "buildType": "apk"
       }
     },
     "production": {
+      "node": "20.19.4",
       "pnpm": "10.26.1",
       "distribution": "internal",
       "android": {
+        "image": "latest",
         "buildType": "apk"
       }
     }
