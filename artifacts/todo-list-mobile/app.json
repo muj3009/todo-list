@@ -2,6 +2,7 @@
   "expo": {
     "name": "Little List Mobile",
     "slug": "todo-list-mobile",
+    "owner": "muji2027s-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon-checklist.png",
@@ -39,6 +40,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77951337-48de-4c7a-a907-d9bd84574491"
+      }
     }
   }
 }
