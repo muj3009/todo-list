@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Little List Mobile",
+    "slug": "todo-list-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-checklist.png",
+    "scheme": "todo-list-mobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon-checklist.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f5f7fb"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.littlelist.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon-checklist.png",
+        "backgroundColor": "#5367e8"
+      }
+    },
+    "web": {
+    "favicon": "./assets/images/icon-checklist.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
